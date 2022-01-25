@@ -25,11 +25,47 @@
 
     <div class="row">
 
-    <div class="col">
+    <div class="col lc">
      <router-link :to="{ name: 'Contact' }" class="btn btn-rabbit mnn">Contact</router-link> 
     </div>
 
   </div>
+
+  <div class="row">
+
+    <div class="col bbb">
+    
+
+<!-- Google -->
+<a style="color: #dd4b39;" href="mailto:diegoallies27@gmail.com" role="button" class="imk"
+  ><i class="fab fa-google fa-lg"></i>
+</a>
+
+
+<!-- Linkedin -->
+
+<a style="color: blue;" href="https://www.linkedin.com/in/diego-allies/" role="button" class="imk"
+  ><i class="fab fa-linkedin-in"></i>
+</a>
+
+<!-- Github -->
+<a style="color: black;" href="https://github.com/diegoallies" role="button" class="imk"
+><i class="fab fa-github"></i>
+</a>
+
+
+<a style="color: green;" href="https://wa.me/27684005634" role="button" class="imk"
+><i class="fab fa-whatsapp"></i>
+</a>
+
+    </div>
+
+  </div>
+
+  
+
+
+
   
 </div>
 
@@ -49,7 +85,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .headerrr {
-  margin-top: 12%;
+  margin-top: 8%;
   margin-bottom: 10%;
 }
 
@@ -82,5 +118,39 @@ a {
 
 .intro {
   margin-bottom: 10%;
+    font-style: italic;
+    font-weight: 600;
+    font-family: "Crimson";
+    font-size: 19px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    line-height: 29px;
+}
+
+.imk {
+  margin-top: 20%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.lc {
+  margin-bottom: 8%;
+}
+
+.bbb {
+  margin-top: -5%;
+}
+
+img {
+      display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+  padding: 10px 40px;
+  height: 45px;
+  font-size: 14px;
+  width: 170px;
 }
 </style>
