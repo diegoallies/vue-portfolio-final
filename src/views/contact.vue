@@ -7,7 +7,7 @@
   <div class="row">
 
     <div class="col-sm">
-      <img src="https://i.postimg.cc/3NHmJdmT/exab.jpg" alt="me" class="abt-image">
+      <img src="https://i.postimg.cc/8zq0BbVB/contact.jpg" alt="me" class="abt-image">
     </div>
 
     <div class="col-sm">
@@ -22,7 +22,7 @@
   <div class="row">
     <div class="col">
      
-      <h1 class="back-btn">About</h1>
+      <h1 class="back-btn">Contact</h1>
 
     </div>
   </div>
@@ -30,8 +30,27 @@
   <div class="row">
     <div class="col">
      
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet cumque tempora ducimus assumenda nemo ipsum, numquam exercitationem? Provident culpa amet tempora veritatis at ut harum, perspiciatis dolorum pariatur. Eius eligendi necessitatibus accusamus veniam fugit id assumenda fuga quam commodi at. Iure quidem illo libero laborum rerum, sapiente odit voluptas temporibus aperiam ab earum accusantium deserunt hic ipsa quam debitis autem. Quod tempora harum numquam aliquid enim blanditiis, impedit ipsa expedita reiciendis. Quisquam debitis asperiores natus at repudiandae, illum sit! Explicabo cum unde id nobis neque enim consequuntur fugit earum voluptatem facere adipisci, dolores, iste optio animi dicta obcaecati accusamus expedita!</p>
+      <p class="">Im based in Cape Town in RSA , near epping industrial , drop me a line</p>
 
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+     <form class="form_edit"> 
+                            <div class="form-group">
+                                <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+                            </div>
+
+                            <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+
+                            <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-rabbit submit">Send Message</button>
+                        </form>
     </div>
   </div>
 
@@ -79,6 +98,5 @@ export default {
     margin-bottom: 20px;
     font-family: "Crimson";
     font-size: 13px;
-}
-
+}  
 </style>

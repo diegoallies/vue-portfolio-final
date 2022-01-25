@@ -1,7 +1,19 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+
+    <div class="container">
+  <div class="row">
+    <div class="col-sm"> 
+      <!-- Left Column -->
+      <img src="https://i.postimg.cc/nhnss46M/exa.jpg" alt="image" class="home-image">
+    </div>
+    <div class="col-sm">
+       <!-- Right Column -->
+          <HelloWorld msg="I am Diego Allies"/>
+    </div>
+  </div>
+</div>
   </div>
 </template>
 
@@ -16,3 +28,11 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.home-image {
+  width: 86%;
+}
+
+
+</style>

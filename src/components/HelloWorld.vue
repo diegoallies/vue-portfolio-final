@@ -1,33 +1,40 @@
 <template>
-  <div class="hello">
+  <div class="hello headerrr">
     <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
   </div>
+    <p class="intro">I am Junior Web developer able to build a Web presence from the ground up - from concept, navigation, layout and programming to UX and SEO. Skilled at writing well-designed, testable and efficient code using current best practices in Web development. Fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.</p>
+
+    <div class="container">
+
+  <div class="row">
+
+    <div class="col">
+      <router-link :to="{ name: 'About' }" class="btn btn-rabbit mnn">About</router-link>
+    </div>
+    
+  </div>
+
+
+  <div class="row">
+
+    <div class="col">
+      <router-link :to="{ name: 'Work' }" class="btn btn-rabbit mnn">Work</router-link>
+    </div>
+
+  </div>
+
+    <div class="row">
+
+    <div class="col">
+     <router-link :to="{ name: 'Contact' }" class="btn btn-rabbit mnn">Contact</router-link> 
+    </div>
+
+  </div>
+  
+</div>
+
+
+
 </template>
 
 <script>
@@ -41,6 +48,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.headerrr {
+  margin-top: 12%;
+  margin-bottom: 10%;
+}
+
 h3 {
   margin: 40px 0 0;
 }
@@ -54,5 +66,21 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.mnn {
+    background-color: #fff;
+    color: #111;
+    font-style: italic;
+    border: 1px solid #111;
+    border-radius: 0px !important;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 20px;
+    font-family: "Crimson";
+    font-size: 13px;
+}
+
+.intro {
+  margin-bottom: 10%;
 }
 </style>

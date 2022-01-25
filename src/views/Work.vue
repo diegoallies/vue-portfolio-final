@@ -7,7 +7,7 @@
   <div class="row">
 
     <div class="col-sm">
-      <img src="https://i.postimg.cc/3NHmJdmT/exab.jpg" alt="me" class="abt-image">
+      <img src="https://i.postimg.cc/gcVmwn8T/wrk.jpg" alt="me" class="abt-image">
     </div>
 
     <div class="col-sm">
@@ -22,7 +22,7 @@
   <div class="row">
     <div class="col">
      
-      <h1 class="back-btn">About</h1>
+      <h1 class="back-btn">Work</h1>
 
     </div>
   </div>
@@ -81,4 +81,5 @@ export default {
     font-size: 13px;
 }
 
+  
 </style>

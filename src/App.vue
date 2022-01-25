@@ -1,12 +1,22 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+
   <router-view/>
 </template>
 
+<script>
+
+import * as mdb from 'mdb-ui-kit';
+import {input} from 'mdb-ui-kit';
+
+export default {
+  
+}
+</script>
+
 <style>
+
+@import '~mdb-ui-kit/css/mdb.min.css';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
