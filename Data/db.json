@@ -1,6 +1,6 @@
 {
     "portfolios": [
-        { "title": "project 1", "id": 1, "details": "lorem", "img": "https://i.postimg.cc/bN16HQ6b/id1.png", "first": "true"},
+        { "title": "project 1", "id": 1, "details": "lorem", "img": "https://i.postimg.cc/bN16HQ6b/id1.png"},
         { "title": "project 2", "id": 2, "details": "lorem", "img": "https://i.postimg.cc/28VfG9sJ/portfolio1.png"},
         { "title": "project 3", "id": 3, "details": "lorem", "img": "https://i.postimg.cc/BbFRWRJQ/fir.png"},
         { "title": "project 4", "id": 4, "details": "lorem", "img": "https://i.postimg.cc/DyZbgFyT/sec.png"},

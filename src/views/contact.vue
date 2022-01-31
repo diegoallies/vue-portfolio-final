@@ -37,19 +37,19 @@
 
   <div class="row">
     <div class="col">
-     <form class="form_edit"> 
+     <form class="form_edit" method="post"  action="https://formspree.io/f/mlezjjjp"> 
         <div class="form-group">
-            <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+            <input type="name" class="form-control bgg mnnm" id="exampleInputName" placeholder="Name">
         </div>
 
         <div class="form-group">
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        <input type="email" class="form-control bgg mnnm" id="exampleInputEmail1" placeholder="Email">
         </div>
 
         <div class="form-group">
-        <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+        <textarea class="form-control bgg mnnm" rows="5" placeholder="Message"></textarea>
         </div>
-   <button type="submit" class="btn btn-rabbit submit">Send Message</button>
+   <button type="submit" class="mnn btn btn-rabbit submit bgg bggn">Send Message</button>
     </form>
     </div>
   </div>
@@ -100,6 +100,12 @@ export default {
     font-size: 13px;
 }
 
+.mnnm {
+  background-color: #fff !important;
+    color: #111 !important;
+    border: 1px solid #111;
+}
+
 .contact-text {
     margin-left: -16%;
     margin-top: 1%;
@@ -130,5 +136,14 @@ export default {
   padding: 10px 60px;
     height: 45px;
     font-size: 16px;
+}
+
+.bgg {
+  margin-bottom: 5%;
+  margin-left: -9.6%;
+}
+
+.bggn {
+  margin-left: -71.7%;
 }
 </style>
