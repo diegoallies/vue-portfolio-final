@@ -8,7 +8,7 @@
 
   <div class="row">
 
-    <div class="col">
+    <div class="col inv">
       <router-link :to="{ name: 'About' }" class="btn btn-rabbit mnn">About</router-link>
     </div>
     
@@ -25,10 +25,18 @@
 
     <div class="row">
 
-    <div class="col lc">
+    <div class="col">
      <router-link :to="{ name: 'Contact' }" class="btn btn-rabbit mnn">Contact</router-link> 
     </div>
 
+  </div>
+
+  <div class="row">
+
+    <div class="col lc">
+      <router-link :to="{ name: 'Portfolio' }" class="btn btn-rabbit mnn">Portfolio</router-link>
+    </div>
+    
   </div>
 
   <div class="row">
@@ -61,10 +69,6 @@
     </div>
 
   </div>
-
-  
-
-
 
   
 </div>
@@ -152,5 +156,9 @@ img {
   height: 45px;
   font-size: 14px;
   width: 170px;
+}
+
+.inv {
+  margin-top: -12%;
 }
 </style>

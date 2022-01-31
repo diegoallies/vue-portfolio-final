@@ -1,0 +1,187 @@
+<template>
+  <div class="hello headerrr">
+    <h1>{{ msg }}</h1>
+  </div>
+   
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm">
+      <img src="https://i.postimg.cc/3NHmJdmT/exab.jpg" alt="me" class="abt-image">
+    </div>
+
+    <div class="col-sm">
+       <div class="container">
+
+  <div class="row">
+    <div class="col">
+      <router-link to="/" class="btn btn-rabbit back-btn mnn"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+     
+      <h1 class="abttt">Portfolios</h1>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+     
+      <h1 class="subt txttt">My Projects.</h1>
+
+    </div>
+  </div>
+
+  <div class="row that-coll">
+    <div class="col">
+        <div class="pushRight">
+
+ <div v-if="portfolios" class="port-cont">
+            <div class="that-col">
+<div v-for="portfolio of portfolios" :key="portfolio.id" class="port-cont">
+                <img class="ports" :src="portfolio.img" alt="sh"> <br>
+                {{portfolio.title}}
+            </div>
+
+            </div>
+            
+        </div>
+
+        </div>
+     
+       
+
+    </div>
+  </div>
+
+</div>
+
+    </div>
+  
+  </div>
+</div>
+
+   
+
+
+</template>
+
+<script>
+
+import * as mdb from 'mdb-ui-kit';
+import {input} from 'mdb-ui-kit';
+
+export default {
+  data(){
+      return {
+          portfolios: null
+      }
+  },
+
+  mounted() {
+      fetch("http://localhost:3000/portfolios")
+      .then(res => res.json())
+      .then(data => this.portfolios = data)
+      .catch(err => console.log(err))
+  },
+}
+</script>
+
+<style scoped>
+
+@import '~mdb-ui-kit/css/mdb.min.css';
+.abt-image {
+  width: 85%;
+}
+
+.back-btn {
+  margin-left: -70%;
+  margin-top: 15%;
+}
+
+.mnn {
+    background-color: #fff;
+    color: #111;
+    font-style: italic;
+    border: 1px solid #111;
+    border-radius: 0px !important;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 20px;
+    font-family: "Crimson";
+    font-size: 13px;
+}
+
+.main-txt {
+  margin-top: 5%;
+}
+
+.subt {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    color: #3b3b3b;
+    line-height: 28px;
+    font-family: "Crimson";
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-right: 40px;
+}
+
+.abttt {
+  margin-left: -100%;
+  margin-top: 5%;
+  font-size: 39px;
+  font-family: "Josefin Sans";
+  
+}
+
+.txttt {
+  margin-left: -10%;
+  text-align: initial;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.back2home {
+  margin-left: 0%;
+}
+
+.btn {
+  padding: 10px 60px;
+    height: 45px;
+    font-size: 16px;
+}
+
+.ports {
+    width: 180px;
+    height: 100px;
+}
+
+.port-cont {
+    display: inline-block;
+    margin-right: 13%;
+    margin-left: 3%;
+    padding: 1.5%;
+}
+
+
+
+.that-col {
+    margin-left: -44% !important;
+}
+
+.pushRight {
+    margin-right: -20%;
+    margin-left: 20%;
+}
+
+</style>
