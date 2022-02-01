@@ -18,7 +18,7 @@
   <div class="row">
 
     <div class="col">
-      <router-link :to="{ name: 'Work' }" class="btn btn-rabbit mnn">Skills</router-link>
+      <router-link :to="{ name: 'Skill' }" class="btn btn-rabbit mnn">Skills</router-link>
     </div>
 
   </div>
