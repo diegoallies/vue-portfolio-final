@@ -4,11 +4,11 @@
 <div class="container">
   <div class="row">
 
-    <div class="col-sm">
+    <div class="col-sm w3-animate-left">
       <img src="https://i.postimg.cc/gcVmwn8T/wrk.jpg" alt="me" class="abt-image">
     </div>
 
-    <div class="col-sm">
+    <div class="col-sm w3-animate-right">
        <div class="container">
 
   <div class="row">

@@ -9,7 +9,7 @@
   <div class="row">
 
     <div class="col inv">
-      <router-link :to="{ name: 'About' }" class="btn btn-rabbit mnn">About</router-link>
+      <router-link :to="{ name: 'About' }" class="btn btn-rabbit mnn fade-enter fade-leave-active">About</router-link>
     </div>
     
   </div>
@@ -164,5 +164,16 @@ img {
 
 .iss {
   margin-top: -4%;
+}
+
+.fade-enter .fade-leave-to {
+  opacity: 0;
+  transform: translateX(2em);
+
+}
+
+.fade-enter-active .fade-leave-active {
+  transition: all .3s ease;
+
 }
 </style>

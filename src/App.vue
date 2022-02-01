@@ -1,6 +1,12 @@
 <template>
 
-  <router-view/>
+  <transition name="fade" mode="out-in">
+
+    <router-view/>
+
+  </transition>
+
+
 </template>
 
 <script>
@@ -23,6 +29,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  width: 100vw;
 }
 
 #nav {
@@ -36,5 +43,16 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.fade-enter .fade-leave-to {
+  opacity: 0;
+  transform: translateX(2em);
+
+}
+
+.fade-enter-active .fade-leave-active {
+  transition: all .3s ease;
+
 }
 </style>

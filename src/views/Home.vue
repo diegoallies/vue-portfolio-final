@@ -1,14 +1,13 @@
 <template>
-  <div class="home">
-
+  <div class="home" id="index">
 
     <div class="container">
   <div class="row">
-    <div class="col-sm"> 
+    <div class="col-sm w3-animate-right"> 
       <!-- Left Column -->
       <img src="https://i.postimg.cc/nhnss46M/exa.jpg" alt="image" class="home-image">
     </div>
-    <div class="col-sm">
+    <div class="col-sm w3-animate-left">
        <!-- Right Column -->
           <HelloWorld msg="I am Diego Allies"/>
     </div>
