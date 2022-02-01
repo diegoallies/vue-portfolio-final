@@ -5,6 +5,7 @@
   <div class="row">
 
     <div class="col-sm w3-animate-left">
+       <router-link to="/" class="btn btn-rabbit back-btn mnn mbv"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
       <img src="https://i.postimg.cc/3NHmJdmT/exab.jpg" alt="me" class="abt-image">
     </div>
 
@@ -14,7 +15,7 @@
 
   <div class="row">
     <div class="col">
-      <router-link to="/" class="btn btn-rabbit back-btn mnn"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
+      <router-link to="/" class="btn btn-rabbit back-btn mnn cvvv"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
     </div>
   </div>
 
@@ -180,6 +181,41 @@ p {
   margin-top: -3.6%;
 }
 
+.mbv {
+  visibility: hidden;
+}
 /* footer style */
+@media only screen and (max-width: 553px) {
+  .abt-image {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-left: -5%;
+    margin-right: -5%;
+  }
 
+  .back-btn {
+    margin-left: 0%;
+
+  }
+
+  .abttt {
+    margin-left: 0;
+  }
+
+  .mbv {
+    visibility: visible;
+  }
+
+  .cvvv {
+    visibility: hidden;
+  }
+
+  .txttt {
+    /* margin-left: ; */
+  }
+
+
+
+
+}
 </style>
