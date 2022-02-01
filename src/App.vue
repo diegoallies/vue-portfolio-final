@@ -67,6 +67,20 @@ export default {
     to{left:0;opacity:1}
     }
 
+@media only screen and (max-width: 553px) {
+
+  .col-sm {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .footrrr {
+    margin-top: 10%;
+  }
+
+
+
+}
 
 
 </style>

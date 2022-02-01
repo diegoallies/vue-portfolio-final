@@ -5,6 +5,7 @@
   <div class="row">
 
     <div class="col-sm w3-animate-left">
+    <router-link to="/" class="btn btn-rabbit back-btn mnn bnnn mbv"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
       <img src="https://i.postimg.cc/gcVmwn8T/wrk.jpg" alt="me" class="abt-image">
     </div>
 
@@ -13,7 +14,7 @@
 
   <div class="row">
     <div class="col">
-     <router-link to="/" class="btn btn-rabbit back-btn mnn bnnn"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
+     <router-link to="/" class="btn btn-rabbit back-btn mnn bnnn cvvv"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
     </div>
   </div>
 
@@ -39,7 +40,7 @@
     <div class="col">
      
 
-<div class="row d-flex justify-content-center mt-100">
+<div class="row d-flex justify-content-center mt-100 push-away">
     <div class="col">
       
         <div> <div class="progress yellow"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
@@ -463,7 +464,124 @@ export default {
 .entireFooter {
   margin-top: -3.6%;
 }
+/* new code */
 
+.mbv {
+    visibility: hidden;
+}
 /* footer style */
+@media only screen and (max-width: 553px) {
+  .abt-image {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-left: -5%;
+    margin-right: -5%;
+  }
 
+  .back-btn {
+    margin-left: 0%;
+
+  }
+
+  .abttt {
+    margin-left: 0;
+  }
+
+  .mbv {
+    visibility: visible;
+  }
+
+  .cvvv {
+    visibility: hidden;
+  }
+
+  
+
+.progress {
+    width: 84px;
+    height: 84px !important;
+    float: left;
+    line-height: 100px;
+    background: none;
+    margin: 20px;
+    box-shadow: none;
+    position: relative
+}
+
+.progress:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1
+}
+
+.progress .progress-left {
+    left: 0
+}
+
+.progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 8px;
+    border-style: solid;
+    position: absolute;
+    top: 0
+}
+
+.progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 53px;
+    border-bottom-right-radius: 53px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left
+}
+
+.progress .progress-right {
+    right: 0
+}
+
+.progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 53px;
+    border-bottom-left-radius: 53px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards
+}
+
+.progress .progress-value {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #000;
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+    line-height: 90px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%
+}
+ .push-away {
+     margin-bottom: 7%;
+ }
+
+
+}
 </style>
