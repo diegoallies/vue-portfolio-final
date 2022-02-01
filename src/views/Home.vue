@@ -82,5 +82,27 @@ export default {
 }
 
 /* footer style */
+/* media querries */
 
+
+@media only screen and (max-width: 553px) {
+  .home-image {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: -5%;
+    margin-right: -5%;
+  }
+
+  .col-sm {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .footrrr {
+    margin-top: 10%;
+  }
+
+
+
+}
 </style>
