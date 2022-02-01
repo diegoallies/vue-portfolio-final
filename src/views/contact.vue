@@ -1,7 +1,5 @@
 <template>
-  <div class="hello headerrr">
-    <h1>{{ msg }}</h1>
-  </div>
+
    
 <div class="container">
   <div class="row">
@@ -39,15 +37,15 @@
     <div class="col">
      <form class="form_edit" method="post"  action="https://formspree.io/f/mlezjjjp"> 
         <div class="form-group">
-            <input type="name" class="form-control bgg mnnm" id="exampleInputName" placeholder="Name">
+            <input type="name" class="form-control bgg mnnm" id="exampleInputName" placeholder="Name" name="Name">
         </div>
 
         <div class="form-group">
-        <input type="email" class="form-control bgg mnnm" id="exampleInputEmail1" placeholder="Email">
+        <input type="email" class="form-control bgg mnnm" id="exampleInputEmail1" placeholder="Email" name="Email">
         </div>
 
         <div class="form-group">
-        <textarea class="form-control bgg mnnm" rows="5" placeholder="Message"></textarea>
+        <textarea class="form-control bgg mnnm" rows="5" placeholder="Message" name="Message"></textarea>
         </div>
    <button type="submit" class="mnn btn btn-rabbit submit bgg bggn">Send Message</button>
     </form>

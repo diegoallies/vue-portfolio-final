@@ -6,9 +6,7 @@
         { "title": "project 4", "id": 4, "details": "lorem", "img": "https://i.postimg.cc/DyZbgFyT/sec.png"},
         { "title": "project 5", "id": 5, "details": "lorem", "img": "https://i.postimg.cc/Y9CpHrP2/Screenshot-from-2022-01-26-11-44-39.png"},
         { "title": "project 6", "id": 6, "details": "lorem", "img": "https://i.postimg.cc/N0pKTzqM/Screenshot-from-2022-01-26-11-47-35.png"}
-    ],
-
-    "blogs": [
-        
     ]
+
+    
 }

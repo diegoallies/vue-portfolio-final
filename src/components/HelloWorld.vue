@@ -18,7 +18,7 @@
   <div class="row">
 
     <div class="col">
-      <router-link :to="{ name: 'Work' }" class="btn btn-rabbit mnn">Work</router-link>
+      <router-link :to="{ name: 'Work' }" class="btn btn-rabbit mnn">Skills</router-link>
     </div>
 
   </div>
@@ -121,7 +121,7 @@ a {
 }
 
 .intro {
-  margin-bottom: 10%;
+  margin-bottom: 15%;
     font-style: italic;
     font-weight: 600;
     font-family: "Crimson";
@@ -129,6 +129,7 @@ a {
     padding-top: 15px;
     padding-bottom: 25px;
     line-height: 29px;
+    margin-top: -7%;
 }
 
 .imk {
