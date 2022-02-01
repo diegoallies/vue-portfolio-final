@@ -44,15 +44,28 @@ export default {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+/* animation */
+.w3-animate-right {
 
-.fade-enter .fade-leave-to {
-  opacity: 0;
-  transform: translateX(2em);
+  position:relative;
+  animation:animateright 1.2s
+  }
+  
+  @keyframes animateright {
+    from{right:-500px;opacity:0.6} 
+    to{right:0;opacity:1}}
 
-}
+/* gap */
 
-.fade-enter-active .fade-leave-active {
-  transition: all .3s ease;
+.w3-animate-left {
+  position:relative;
+  animation:animateleft 1.2s
+  }
+  
+  @keyframes animateleft {
+    from{left:-500px;opacity:0.6}
+    to{left:0;opacity:1}
+    }
 
-}
+
 </style>
