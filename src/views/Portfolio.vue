@@ -2,7 +2,7 @@
  
    
 <div class="container">
-  <div class="row">
+  <div class="row main-page">
 
     <div class="col-sm">
       <img src="https://i.postimg.cc/3NHmJdmT/exab.jpg" alt="me" class="abt-image">
@@ -38,13 +38,29 @@
         <div class="pushRight">
 
  <div v-if="portfolios" class="port-cont">
+
             <div class="that-col">
 <div v-for="portfolio of portfolios" :key="portfolio.id" class="port-cont">
                 <img class="ports" :src="portfolio.img" alt="sh"> <br>
-                {{portfolio.title}}
+                <div class="titlee"> {{portfolio.title}} </div>
+                
             </div>
 
+
+
             </div>
+            
+            <div class="that-col">
+<div v-for="portfolio of portfolios1" :key="portfolio.id" class="port-cont">
+                <img class="ports" :src="portfolio.img" alt="sh"> <br>
+                    <div class="titlee"> {{portfolio.title}} </div>
+            </div>
+
+
+
+            </div>
+
+
             
         </div>
 
@@ -76,12 +92,16 @@ export default {
   data(){
       return {
         portfolios: [
-        { "title": "project 1", "id": 1, "details": "lorem", "img": "https://i.postimg.cc/bN16HQ6b/id1.png"},
-        { "title": "project 2", "id": 2, "details": "lorem", "img": "https://i.postimg.cc/28VfG9sJ/portfolio1.png"},
-        { "title": "project 3", "id": 3, "details": "lorem", "img": "https://i.postimg.cc/BbFRWRJQ/fir.png"},
-        { "title": "project 4", "id": 4, "details": "lorem", "img": "https://i.postimg.cc/DyZbgFyT/sec.png"},
-        { "title": "project 5", "id": 5, "details": "lorem", "img": "https://i.postimg.cc/Y9CpHrP2/Screenshot-from-2022-01-26-11-44-39.png"},
-        { "title": "project 6", "id": 6, "details": "lorem", "img": "https://i.postimg.cc/N0pKTzqM/Screenshot-from-2022-01-26-11-47-35.png"}
+        { "title": "SECOND PORTFOLIO", "id": 4, "details": "lorem", "img": "https://i.postimg.cc/DyZbgFyT/sec.png"},
+        { "title": "POS PROJECT", "id": 5, "details": "lorem", "img": "https://i.postimg.cc/Y9CpHrP2/Screenshot-from-2022-01-26-11-44-39.png"},
+        { "title": "BMI CALCULATOR", "id": 6, "details": "lorem", "img": "https://i.postimg.cc/N0pKTzqM/Screenshot-from-2022-01-26-11-47-35.png"}
+    ],
+
+    portfolios1: [
+        { "title": "RSA ID GENERATOR", "id": 1, "details": "lorem", "img": "https://i.postimg.cc/bN16HQ6b/id1.png", "class":"first-line1"},
+        { "title": "FIRST PORTFOLIO", "id": 2, "details": "lorem", "img": "https://i.postimg.cc/28VfG9sJ/portfolio1.png"},
+        { "title": "LEARN CODE", "id": 3, "details": "lorem", "img": "https://i.postimg.cc/BbFRWRJQ/fir.png"},
+
     ]
 
     
@@ -176,20 +196,42 @@ p {
 
 .port-cont {
     display: inline-block;
-    margin-right: 13%;
-    margin-left: 3%;
-    padding: 1.5%;
+    margin-left: -14%;
+    margin-right: 20%;
+    margin-top: 3%;
+    padding: 1%;
+    text-align: center !important;
+    
+}
+
+img.ports {
+  /* width: 50%;
+  height: 50%; */
+  border-radius: 5%;
+  margin-left: -20%;
 }
 
 
 
+
 .that-col {
-    margin-left: -44% !important;
+    /* margin-left: -44% !important; */
+    display: flex;
+}
+
+.main-page {
+  overflow: hidden;
 }
 
 .pushRight {
     margin-right: -20%;
     margin-left: 20%;
+}
+
+.titlee {
+font-family: fantasy;
+ margin-left: -20%;
+ font-weight: bold;
 }
 
 </style>
