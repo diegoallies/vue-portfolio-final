@@ -28,7 +28,7 @@
   <div class="row">
     <div class="col">
      
-      <p class="subt">Im based in Cape Town in RSA, near epping industrial , drop me a line</p>
+      <p class="subt">Im based in Cape Town in RSA, drop me a line</p>
 
     </div>
   </div>
@@ -60,7 +60,32 @@
 </div>
 
    
+<div class="container entireFooter">
+  <div class="row">
+    <div class="col-sm footSide">
 
+<!-- footer side -->
+
+    </div>
+    <div class="col-sm">
+      
+<!-- Footer -->
+<footer class="footrrr">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://diegoallies-portfolio-final.netlify.app//">Diego Allies Productions</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+    </div>
+    <div class="col-sm footSide">
+  <!-- footer side -->
+    </div>
+  </div>
+</div>
 
 </template>
 
@@ -79,6 +104,7 @@ export default {
 @import '~mdb-ui-kit/css/mdb.min.css';
 .abt-image {
   width: 85%;
+  height: 90%;
 }
 
 .back-btn {
@@ -137,11 +163,31 @@ export default {
 }
 
 .bgg {
-  margin-bottom: 5%;
+  margin-bottom: 3.8%;
   margin-left: -9.6%;
 }
 
 .bggn {
   margin-left: -71.7%;
 }
+
+/* footer style */
+
+.footrrr {
+  color: #3b3b3b;
+  margin-bottom: -100%;
+}
+
+.footSide {
+  border-top-style: double;
+  margin-bottom: -1%;
+  margin-top: 2.5%;
+  border-color: rgb(32, 50, 83);
+}
+
+.entireFooter {
+  margin-top: -4.2%;
+}
+
+/* footer style */
 </style>

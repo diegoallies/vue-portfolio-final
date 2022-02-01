@@ -91,7 +91,7 @@
     <div class="col-sm">
       
 <!-- Footer -->
-<footer class="footrrr">
+<footer class="footrrr hdrrr">
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
     <a href="https://diegoallies-portfolio-final.netlify.app//">Diego Allies Productions</a>
@@ -154,7 +154,7 @@ export default {
 
 .back-btn {
   margin-left: -70%;
-  margin-top: 15%;
+  margin-top: 14%;
 }
 
 .mnn {
@@ -267,6 +267,7 @@ font-family: fantasy;
 .footrrr {
   color: #3b3b3b;
   margin-bottom: -100%;
+  margin-left: 3.6%;
 }
 
 .footSide {
@@ -277,7 +278,7 @@ font-family: fantasy;
 }
 
 .entireFooter {
-  margin-top: -0.8%;
+  margin-top: -0.2%;
 }
 
 /* footer style */

@@ -1,6 +1,6 @@
 <template>
   <div class="hello headerrr">
-    <h1>{{ msg }}</h1>
+    <h1 class="iss">{{ msg }}</h1>
   </div>
     <p class="intro">I am Junior Web developer able to build a Web presence from the ground up - from concept, navigation, layout and programming to UX and SEO. Skilled at writing well-designed, testable and efficient code using current best practices in Web development. Fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.</p>
 
@@ -72,7 +72,6 @@
 
   
 </div>
-
 
 
 </template>
@@ -161,5 +160,9 @@ img {
 
 .inv {
   margin-top: -12%;
+}
+
+.iss {
+  margin-top: -4%;
 }
 </style>
