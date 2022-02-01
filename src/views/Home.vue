@@ -61,7 +61,7 @@ export default {
 <style scoped>
 .home-image {
   width: 86%;
-  height: 90%;
+  height: 70%;
 }
 
 /* footer style */
