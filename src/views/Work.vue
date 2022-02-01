@@ -271,31 +271,43 @@ export default {
 }
 
 .progress.blue .progress-left .progress-bar {
-    animation: loading-2 1.5s linear forwards 1.8s
+    animation: loading-2 0.5s linear forwards 0.8s
 }
 
+.progress.blue .progress-right .progress-bar {
+    animation: loading-1 0.8s linear forwards
+}
+
+.progress.purple .progress-right .progress-bar {
+    animation: loading-1 0.8s linear forwards
+}
+
+.progress.grey .progress-right .progress-bar {
+    animation: loading-1 0.8s linear forwards
+}
+
+
 .progress.grey .progress-left .progress-bar {
-    animation: loading-grey 1.5s linear forwards 1.8s
+    animation: loading-grey 0.5s linear forwards 0.8s
 }
 
 .progress.purple .progress-left .progress-bar {
-    animation: loading-grey 1.5s linear forwards 1.8s
+    animation: loading-grey 0.5s linear forwards 0.8s
 }
 
 
 .progress.greene .progress-right .progress-bar {
-    animation: loading-node 1.5s linear forwards 1.8s
+    animation: loading-node 0.5s linear forwards 0.1s
 }
 
 
 
 .progress.green .progress-left .progress-bar {
-    animation: loading-3 1s linear forwards 2.8s
+    animation: loading-5 0.5s linear forwards 0.8s
 }
 
-
 .progress.green .progress-right .progress-bar {
-    animation: loading-1 1.8s linear forwards 1s
+    animation: loading-1 0.8s linear forwards 0s
 }
 
 
@@ -321,12 +333,12 @@ export default {
 }
 
 .progress.yellow .progress-right .progress-bar {
-    animation: loading-1 1.8s linear forwards
+    animation: loading-1 0.8s linear forwards
 }
 
 
 .progress.yellow .progress-left .progress-bar {
-    animation: loading-15 1.5s linear forwards 1.8s
+    animation: loading-15 0.5s linear forwards 0.8s
 }
 
 
@@ -364,6 +376,18 @@ export default {
     100% {
         -webkit-transform: rotate(70deg);
         transform: rotate(70deg)
+    }
+}
+
+@keyframes loading-5 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg)
     }
 }
 
