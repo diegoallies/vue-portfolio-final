@@ -128,6 +128,7 @@ export default {
 .abt-image {
   width: 85%;
   height: 90%;
+  margin-left: -1%;
 }
 
 .back-btn {

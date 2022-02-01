@@ -150,6 +150,7 @@ export default {
 @import '~mdb-ui-kit/css/mdb.min.css';
 .abt-image {
   width: 85%;
+  margin-left: 3.5%;
 }
 
 .back-btn {
