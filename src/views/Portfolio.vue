@@ -75,15 +75,25 @@ import {input} from 'mdb-ui-kit';
 export default {
   data(){
       return {
-          portfolios: null
+        portfolios: [
+        { "title": "project 1", "id": 1, "details": "lorem", "img": "https://i.postimg.cc/bN16HQ6b/id1.png"},
+        { "title": "project 2", "id": 2, "details": "lorem", "img": "https://i.postimg.cc/28VfG9sJ/portfolio1.png"},
+        { "title": "project 3", "id": 3, "details": "lorem", "img": "https://i.postimg.cc/BbFRWRJQ/fir.png"},
+        { "title": "project 4", "id": 4, "details": "lorem", "img": "https://i.postimg.cc/DyZbgFyT/sec.png"},
+        { "title": "project 5", "id": 5, "details": "lorem", "img": "https://i.postimg.cc/Y9CpHrP2/Screenshot-from-2022-01-26-11-44-39.png"},
+        { "title": "project 6", "id": 6, "details": "lorem", "img": "https://i.postimg.cc/N0pKTzqM/Screenshot-from-2022-01-26-11-47-35.png"}
+    ]
+
+    
+
       }
   },
 
   mounted() {
-      fetch("http://localhost:3000/portfolios")
-      .then(res => res.json())
-      .then(data => this.portfolios = data)
-      .catch(err => console.log(err))
+      // fetch("http://localhost:3000/portfolios")
+      // .then(res => res.json())
+      // .then(data => this.portfolios = data)
+      // .catch(err => console.log(err))
   },
 }
 </script>
