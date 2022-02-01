@@ -81,6 +81,33 @@
    
 
 
+<div class="container entireFooter">
+  <div class="row">
+    <div class="col-sm footSide">
+
+<!-- footer side -->
+
+    </div>
+    <div class="col-sm">
+      
+<!-- Footer -->
+<footer class="footrrr">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://diegoallies-portfolio-final.netlify.app//">Diego Allies Productions</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+    </div>
+    <div class="col-sm footSide">
+  <!-- footer side -->
+    </div>
+  </div>
+</div>
+
 </template>
 
 <script>
@@ -159,15 +186,16 @@ export default {
 }
 
 .abttt {
-  margin-left: -100%;
+  margin-left: -8.5%;
   margin-top: 5%;
   font-size: 39px;
   font-family: "Josefin Sans";
+  text-align: start;
   
 }
 
 .txttt {
-  margin-left: -10%;
+  margin-left: -8.5%;
   text-align: initial;
 }
 
@@ -196,8 +224,8 @@ p {
 
 .port-cont {
     display: inline-block;
-    margin-left: -14%;
-    margin-right: 20%;
+    margin-left: -13.28%;
+    margin-right: 18%;
     margin-top: 3%;
     padding: 1%;
     text-align: center !important;
@@ -234,4 +262,23 @@ font-family: fantasy;
  font-weight: bold;
 }
 
+/* footer style */
+
+.footrrr {
+  color: #3b3b3b;
+  margin-bottom: -100%;
+}
+
+.footSide {
+  border-top-style: double;
+  margin-bottom: -1%;
+  margin-top: 2.5%;
+  border-color: rgb(32, 50, 83);
+}
+
+.entireFooter {
+  margin-top: -0.8%;
+}
+
+/* footer style */
 </style>
