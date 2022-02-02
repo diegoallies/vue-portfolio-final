@@ -184,6 +184,10 @@ img {
   }
 
 
+  .iss {
+    margin-top: 10%;
+  }
+
 
 }
 

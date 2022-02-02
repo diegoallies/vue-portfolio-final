@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-sm w3-animate-right"> 
       <!-- Left Column -->
-      <img src="https://i.postimg.cc/4xhHNW27/Screenshot-20220201-183226.jpg" alt="image" class="home-image">
+      <img src="https://i.postimg.cc/1zQVXvL3/exa.jpg" alt="image" class="home-image">
 
     </div>
     <div class="col-sm w3-animate-left">
@@ -61,7 +61,7 @@ export default {
 <style scoped>
 .home-image {
   width: 86%;
-  height: 70%;
+  height: 90%;
 }
 
 /* footer style */

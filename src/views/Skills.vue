@@ -43,7 +43,7 @@
 <div class="row d-flex justify-content-center mt-100 push-away">
     <div class="col">
       
-        <div> <div class="progress yellow"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
+        <div > <div class="progress yellow"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
             <div class="progress-value"> <i class="fab fa-js slg"></i> </div>
         </div> </div>
 
@@ -96,7 +96,7 @@
 <!-- Footer -->
 <footer class="footrrr">
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <div class="footer-copyright text-center py-3">© 2022 Copyright:
     <a href="https://diegoallies-portfolio-final.netlify.app//">Diego Allies Productions</a>
   </div>
   <!-- Copyright -->
@@ -483,6 +483,10 @@ export default {
 
   }
 
+  .workkk {
+      margin-left: -70%;
+  }
+
   .abttt {
     margin-left: 0;
   }
@@ -580,6 +584,7 @@ export default {
 }
  .push-away {
      margin-bottom: 7%;
+     margin-left: -11%;
  }
 
 

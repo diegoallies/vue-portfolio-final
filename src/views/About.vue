@@ -38,7 +38,7 @@
   <div class="row">
     <div class="col">
      
-      <p class="main-txt txttt">"I am a fast learner who works well in a team as well as being capable of working individually. I thrive in an environment where I am able to take initiative and use my problem-solving skills. Furthermore, I aspire to be a Full-Stack Developer. <br><br> My passion for programming came from my level of skill in it. I have naturally always solved problems that are coding related and found that I have a good understanding of how it all works. This has motivated me to study further and continue in this field." </p>
+      <p class="main-txt txttt end">"I am a fast learner who works well in a team as well as being capable of working individually. I thrive in an environment where I am able to take initiative and use my problem-solving skills. Furthermore, I aspire to be a Full-Stack Developer. <br><br> My passion for programming came from my level of skill in it. I have naturally always solved problems that are coding related and found that I have a good understanding of how it all works. This has motivated me to study further and continue in this field." </p>
     </div>
   </div>
 
@@ -199,7 +199,7 @@ p {
   }
 
   .abttt {
-    margin-left: 0;
+    margin-left: -65%;
   }
 
   .mbv {
@@ -211,9 +211,13 @@ p {
   }
 
   .txttt {
-    /* margin-left: ; */
+    margin-left: 0;
   }
 
+  
+  .end {
+    margin-bottom: 20%;
+  }
 
 
 
