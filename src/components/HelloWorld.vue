@@ -162,6 +162,9 @@ img {
   margin-top: -12%;
 }
 
+.iss {
+  margin-top: -5%;
+}
 
 .fade-enter .fade-leave-to {
   opacity: 0;

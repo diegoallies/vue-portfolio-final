@@ -178,7 +178,7 @@ p {
 }
 
 .entireFooter {
-  margin-top: -1.6%;
+  margin-top: -3.6%;
 }
 
 .mbv {

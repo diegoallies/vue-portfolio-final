@@ -79,7 +79,7 @@ export default {
 }
 
 .entireFooter {
-  margin-top: -2%;
+  margin-top: -4.5%;
 }
 
 /* footer style */

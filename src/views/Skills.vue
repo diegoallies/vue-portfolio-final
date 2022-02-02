@@ -462,7 +462,7 @@ export default {
 }
 
 .entireFooter {
-  margin-top: -1.6%;
+  margin-top: -3.6%;
 }
 /* new code */
 

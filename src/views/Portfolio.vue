@@ -329,7 +329,7 @@ font-family: fantasy;
 }
 
 .entireFooter {
-  margin-top: -1%;
+  margin-top: -3%;
 }
 
 .main-page {
