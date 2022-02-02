@@ -5,6 +5,7 @@
   <div class="row">
 
     <div class="col-sm w3-animate-left">
+      <router-link to="/" class="btn btn-rabbit back-btn mnn mbv"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
       <img src="https://i.postimg.cc/8zq0BbVB/contact.jpg" alt="me" class="abt-image">
     </div>
 
@@ -13,7 +14,7 @@
 
   <div class="row">
     <div class="col">
-        <router-link to="/" class="btn btn-rabbit back-btn mnn"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
+        <router-link to="/" class="btn btn-rabbit back-btn mnn ccvv"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
     </div>
   </div>
 
@@ -27,9 +28,12 @@
 
   <div class="row">
     <div class="col">
-     
-      <p class="subt">Im based in Cape Town in RSA, drop me a line</p>
+     <div class="forThat">
+  <p class="subt">Im based in Cape Town in RSA, drop me a line</p>
 
+
+     </div>
+    
     </div>
   </div>
 
@@ -113,6 +117,10 @@ export default {
   margin-top: 15%;
 }
 
+.mbv {
+  visibility: hidden;
+}
+
 .mnn {
     background-color: #fff;
     color: #111;
@@ -191,4 +199,55 @@ export default {
 }
 
 /* footer style */
+
+@media only screen and (max-width: 553px) {
+  .abt-image {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-left: -5%;
+    margin-right: -5%;
+  }
+
+  .back-btn {
+    margin-left: 0%;
+
+  }
+
+  .mbv {
+    visibility: visible;
+  }
+
+  .ccvv {
+    visibility: hidden;
+  }
+
+  .conttt {
+    margin-left: -59%;
+  }
+
+  .subt {
+    margin-left: 0%;
+    text-align: start;
+  }
+
+  .forThat {
+    margin-left: 0%;
+  }
+
+  form {
+    margin-left: 0;
+  }
+
+  .mnnm {
+    margin-left: 0;
+  }
+
+  .mnn {
+    margin-left: -17%;
+    margin-bottom: 20%;
+  }
+
+
+
+}
 </style>

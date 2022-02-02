@@ -4,7 +4,8 @@
 <div class="container">
   <div class="row main-page">
 
-    <div class="col-sm w3-animate-left">
+    <div class="col-sm w3-animate-left margg">
+            <router-link to="/" class="btn btn-rabbit back-btn mnn mbv"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
       <img src="https://i.postimg.cc/3NHmJdmT/exab.jpg" alt="me" class="abt-image">
     </div>
 
@@ -13,7 +14,7 @@
 
   <div class="row">
     <div class="col">
-      <router-link to="/" class="btn btn-rabbit back-btn mnn"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
+      <router-link to="/" class="btn btn-rabbit back-btn mnn ccvv"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
     </div>
   </div>
 
@@ -28,16 +29,16 @@
   <div class="row">
     <div class="col">
      
-      <h1 class="subt txttt">My Projects.</h1>
+      <h1 class="subt txttt ccvv">My Projects.</h1>
 
     </div>
   </div>
 
   <div class="row that-coll">
     <div class="col">
-        <div class="pushRight">
+        <div class="pushRight margg">
 
- <div v-if="portfolios" class="port-cont">
+ <div v-if="portfolios" class="port-cont ccvv downWra">
 
             <div class="that-col">
 <div v-for="portfolio of portfolios" :key="portfolio.id" class="port-cont">
@@ -64,6 +65,46 @@
             
         </div>
 
+        <!-- new code
+        this is where i changed responsivity
+
+        
+         -->
+ <div v-if="portfolios" class="mbv upWra">
+
+            <div class="row">
+<div v-for="portfolio of portfolios" :key="portfolio.id" class="col-sm-12 ccl">
+                <div class="moreRes">
+
+     <img class="ports" :src="portfolio.img" alt="sh"> <br>
+
+                    <div class="titlee"> {{portfolio.title}} </div>
+  </div>
+                
+            </div>
+
+
+
+            </div>
+            
+            <div class="row">
+<div v-for="portfolio of portfolios1" :key="portfolio.id" class="col-sm-12 ccl">
+  <div class="moreRes">
+
+     <img class="ports" :src="portfolio.img" alt="sh"> <br>
+
+                    <div class="titlee"> {{portfolio.title}} </div>
+  </div>
+               
+            </div>
+
+
+
+            </div>
+
+
+            
+        </div>
         </div>
      
        
@@ -93,7 +134,7 @@
 <!-- Footer -->
 <footer class="footrrr hdrrr">
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <div class="footer-copyright text-center py-3">© 2022 Copyright:
     <a href="https://diegoallies-portfolio-final.netlify.app//">Diego Allies Productions</a>
   </div>
   <!-- Copyright -->
@@ -151,6 +192,10 @@ export default {
 .abt-image {
   width: 85%;
   margin-left: 3.5%;
+}
+
+.mbv {
+  visibility: hidden;
 }
 
 .back-btn {
@@ -255,6 +300,11 @@ img.ports {
 .pushRight {
     margin-right: -20%;
     margin-left: 20%;
+
+}
+
+.margg {
+  margin-bottom: -120%;
 }
 
 .titlee {
@@ -279,9 +329,69 @@ font-family: fantasy;
 }
 
 .entireFooter {
-  margin-top: -0.2%;
+  margin-top: -2.9%;
+}
+
+.main-page {
+  overflow: hidden;
+}
+
+/* new code */
+
+.downWra {
+  margin-bottom: -100%;
+}
+
+.main-page {
+  /* margin-bottom: -61%; */
 }
 
 /* footer style */
+@media only screen and (max-width: 553px) {
+  .abt-image {
+    margin-top: 5%;
+    margin-bottom: -10%;
+    margin-left: -5%;
+    margin-right: -5%;
+  }
 
+  .back-btn {
+    margin-left: 0%;
+
+  }
+
+  .mbv {
+    visibility: visible;
+  }
+
+  .ccvv {
+    visibility: hidden;
+  }
+
+  .upWra {
+    margin-top: -100%;
+  }
+
+  .margg {
+    margin-bottom: 0;
+  }
+
+  .ccl {
+    margin-left: -27%;
+  }
+
+  .abttt {
+    margin-left: 0;
+  }
+
+  .moreRes {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  
+
+
+
+}
 </style>
