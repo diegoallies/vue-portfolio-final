@@ -329,7 +329,7 @@ font-family: fantasy;
 }
 
 .entireFooter {
-  margin-top: -2.9%;
+  margin-top: -1%;
 }
 
 .main-page {
@@ -394,4 +394,6 @@ font-family: fantasy;
 
 
 }
+
+
 </style>

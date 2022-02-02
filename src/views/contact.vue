@@ -195,7 +195,7 @@ export default {
 }
 
 .entireFooter {
-  margin-top: -4.2%;
+  margin-top: -2%;
 }
 
 /* footer style */
