@@ -109,7 +109,7 @@ export default {
 
     methods: {
       handleSubmit () {
-        fetch('https://diegos-server.herokuapp.com/contact', {
+        fetch('https://diegos-server.herokuapp.com/contact', { mode: 'no-cors'}, {
           method: 'POST',
             body: JSON.stringify({
               name: this.name,
