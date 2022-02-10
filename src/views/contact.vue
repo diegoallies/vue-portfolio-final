@@ -39,17 +39,17 @@
 
   <div class="row">
     <div class="col">
-     <form class="form_edit" method="post"  action="https://formspree.io/f/mlezjjjp"> 
+     <form class="form_edit" @submit.prevent="handleSubmit"> 
         <div class="form-group">
-            <input type="name" class="form-control bgg mnnm" id="exampleInputName" placeholder="Name" name="Name">
+            <input type="name" class="form-control bgg mnnm" id="exampleInputName" placeholder="Name" name="Name" v-model="name">
         </div>
 
         <div class="form-group">
-        <input type="email" class="form-control bgg mnnm" id="exampleInputEmail1" placeholder="Email" name="Email">
+        <input type="email" class="form-control bgg mnnm" id="exampleInputEmail1" placeholder="Email" name="Email" v-model="email">
         </div>
 
         <div class="form-group">
-        <textarea class="form-control bgg mnnm" rows="5" placeholder="Message" name="Message"></textarea>
+        <textarea class="form-control bgg mnnm" rows="5" placeholder="Message" name="Message" v-model="message"></textarea>
         </div>
    <button type="submit" class="mnn btn btn-rabbit submit bgg bggn">Send Message</button>
     </form>
@@ -76,7 +76,7 @@
 <!-- Footer -->
 <footer class="footrrr">
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <div class="footer-copyright text-center py-3">© 2022 Copyright:
     <a href="https://diegoallies-portfolio-final.netlify.app//">Diego Allies Productions</a>
   </div>
   <!-- Copyright -->
@@ -99,7 +99,32 @@ import * as mdb from 'mdb-ui-kit';
 import {input} from 'mdb-ui-kit';
 
 export default {
-  
+     data() {
+       return {
+         name: '',
+         email: '',
+         message: '',
+       }
+     },
+
+    methods: {
+      handleSubmit () {
+        fetch('https://diegos-server.herokuapp.com/', {
+          method: 'POST',
+            body: JSON.stringify({
+              name: this.name,
+              email: this.email,
+              message: this.message,
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json))
+  .catch(e => console.log(e));
+      }
+    },
 }
 </script>
 
