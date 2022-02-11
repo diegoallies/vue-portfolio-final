@@ -29,7 +29,7 @@
 <!-- Footer -->
 <footer class="footrrr">
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <div class="footer-copyright text-center py-3">© 2022 Copyright:
     <a href="https://diegoallies-portfolio-final.netlify.app//">Diego Allies Productions</a>
   </div>
   <!-- Copyright -->
