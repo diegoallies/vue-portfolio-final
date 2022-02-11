@@ -51,6 +51,9 @@
         <div class="form-group">
         <textarea class="form-control bgg mnnm" rows="5" placeholder="Message" name="Message" v-model="message"></textarea>
         </div>
+        {{name}}
+        {{email}}
+        {{message}}
    <button type="submit" class="mnn btn btn-rabbit submit bgg bggn">Send Message</button>
     </form>
     </div>
@@ -99,32 +102,32 @@ import * as mdb from 'mdb-ui-kit';
 import {input} from 'mdb-ui-kit';
 
 export default {
-     data() {
-       return {
-         name: '',
-         email: '',
-         message: '',
-       }
-     },
-
-    methods: {
-      handleSubmit () {
-        fetch('https://diegos-server.herokuapp.com/contact', {
-          method: 'POST',
-            body: JSON.stringify({
-              name: this.name,
-              email: this.email,
-              message: this.message,
-  }),
-  headers: {
-    'Content-type': 'application/json; charset=UTF-8',
+  data() {
+    return {
+      name: '',
+      email: '',
+      message: '',
+    }
   },
-})
-  .then((response) => response.json())
-  .then((json) => console.log(json))
-  .catch(e => console.log(e));
-      }
-    },
+
+  methods: {
+    handleSubmit () {
+      fetch('https://diegos-server.herokuapp.com/contact', {
+        method: 'POST',
+        body: JSON.stringify({
+          name: this.name,
+          email: this.email,
+          message: this.message,
+        }),
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+        },
+      })
+      .then((response) => response.json())
+      .then((json) => console.log(json))
+      .catch(e => console.log(e));
+    }
+  },
 }
 </script>
 
