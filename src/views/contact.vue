@@ -112,16 +112,17 @@ export default {
 
   methods: {
     handleSubmit () {
-      fetch('https://diegos-server.herokuapp.com/contact', {
+      fetch('http://localhost:3000/contact', {
         method: 'POST',
+        mode: 'no-cors',
         body: JSON.stringify({
           name: this.name,
           email: this.email,
           message: this.message,
         }),
-        headers: {
-          'Content-type': 'application/json; charset=UTF-8',
-        },
+        // headers: {
+        //   'Content-type': 'application/json; charset=UTF-8',
+        // },
       })
       .then((response) => response.json())
       .then((json) => console.log(json))
