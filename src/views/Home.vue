@@ -10,7 +10,7 @@
     </div>
     <div class="col-sm w3-animate-left">
        <!-- Right Column -->
-          <HelloWorld msg="I am Diego Allies"/>
+         <h1><HelloWorld msg="I am Diego Allies"/></h1> 
     </div>
   </div>
 </div>
