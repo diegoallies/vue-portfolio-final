@@ -6,7 +6,7 @@
 
     <div class="col-sm w3-animate-left">
        <router-link to="/" class="btn btn-rabbit back-btn mnn mbv"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
-      <img src="https://i.postimg.cc/3NHmJdmT/exab.jpg" alt="me" class="abt-image">
+      <img src="https://i.postimg.cc/hjBt49rF/meee.jpg" alt="me" class="abt-image">
     </div>
 
     <div class="col-sm w3-animate-right">
@@ -76,8 +76,12 @@ export default {
 @import '~mdb-ui-kit/css/mdb.min.css';
 .abt-image {
   width: 85%;
-  height: 90%;
+  height: 102.2%;
   margin-left: -0.9%;
+}
+
+.entireFooter {
+  margin-top: 1.3%;
 }
 
 .back-btn {
