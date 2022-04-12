@@ -5,7 +5,10 @@
   <div class="row">
     <div class="col-sm w3-animate-right"> 
       <!-- Left Column -->
-      <img src="https://i.postimg.cc/1zQVXvL3/exa.jpg" alt="Diego Allies" class="home-image">
+<div class="imageContainer">
+   <img src="https://i.postimg.cc/1zQVXvL3/exa.jpg" alt="Diego Allies" class="home-image">
+</div>
+     
 
     </div>
     <div class="col-sm w3-animate-left">
@@ -17,72 +20,41 @@
   </div>
 
 
-<div class="container entireFooter">
-  <div class="row">
-    <div class="col-sm footSide">
-
-<!-- footer side -->
-
-    </div>
-    <div class="col-sm">
-      
-<!-- Footer -->
-<footer class="footrrr">
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2022 Copyright:
-    <a href="https://diegoallies-portfolio-final.netlify.app//">Diego Allies Productions</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
+  <Footer />
 
 
-    </div>
-    <div class="col-sm footSide">
-  <!-- footer side -->
-    </div>
-  </div>
-</div>
 
 </template>
 
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
+import Footer from '@/components/Footer.vue'
+
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    HelloWorld,
+    Footer
   }
 }
 </script>
 
 <style scoped>
-.home-image {
-  width: 86%;
+.imageContainer {
+  width: 85%;
   height: 90%;
+  margin-left: -5%;
 }
 
-/* footer style */
-
-.footrrr {
-  color: #3b3b3b;
-  margin-bottom: -100%;
+.home-image{
+  width: 100%;
+  height: 100%;
 }
 
-.footSide {
-  border-top-style: double;
-  margin-bottom: -1%;
-  margin-top: 2.5%;
-  border-color: rgb(32, 50, 83);
-}
 
-.entireFooter {
-  margin-top: -4.5%;
-}
 
-/* footer style */
 /* media querries */
 
 

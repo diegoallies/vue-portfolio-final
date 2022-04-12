@@ -7,6 +7,9 @@
   </transition>
 
 
+
+
+
 </template>
 
 <script>
@@ -20,6 +23,27 @@ export default {
 </script>
 
 <style>
+
+/* footer style */
+
+/* .footrrr {
+  color: #3b3b3b;
+  margin-bottom: -100%;
+}
+
+.footSide {
+  border-top-style: double;
+  margin-bottom: -1%;
+  margin-top: 2.5%;
+  border-color: rgb(32, 50, 83);
+}
+
+.entireFooter {
+  margin-top: -4.5%;
+} */
+
+/* footer style */
+
 
 @import '~mdb-ui-kit/css/mdb.min.css';
 

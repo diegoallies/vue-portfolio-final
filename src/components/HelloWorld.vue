@@ -124,7 +124,7 @@ a {
     font-style: italic;
     font-weight: 600;
     font-family: "Crimson";
-    font-size: 19px;
+    font-size: 18px;
     padding-top: 15px;
     padding-bottom: 25px;
     line-height: 29px;
@@ -142,7 +142,7 @@ a {
 }
 
 .bbb {
-  margin-top: -5%;
+  margin-top: -10%;
 }
 
 img {

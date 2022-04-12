@@ -119,35 +119,8 @@
   </div>
 </div>
 
-   
+  <Footer />
 
-
-<div class="container entireFooter">
-  <div class="row">
-    <div class="col-sm footSide">
-
-<!-- footer side -->
-
-    </div>
-    <div class="col-sm">
-      
-<!-- Footer -->
-<footer class="footrrr hdrrr">
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2022 Copyright:
-    <a href="https://diegoallies-portfolio-final.netlify.app//">Diego Allies Productions</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
-
-
-    </div>
-    <div class="col-sm footSide">
-  <!-- footer side -->
-    </div>
-  </div>
-</div>
 
 </template>
 
@@ -155,8 +128,14 @@
 
 import * as mdb from 'mdb-ui-kit';
 import {input} from 'mdb-ui-kit';
+import Footer from '@/components/Footer.vue'
+
 
 export default {
+  components: {
+    Footer
+  },
+
   data(){
       return {
         portfolios: [
@@ -177,12 +156,8 @@ export default {
       }
   },
 
-  mounted() {
-      // fetch("http://localhost:3000/portfolios")
-      // .then(res => res.json())
-      // .then(data => this.portfolios = data)
-      // .catch(err => console.log(err))
-  },
+
+  
 }
 </script>
 
@@ -279,8 +254,6 @@ p {
 }
 
 img.ports {
-  /* width: 50%;
-  height: 50%; */
   border-radius: 5%;
   margin-left: -20%;
 }
@@ -289,8 +262,7 @@ img.ports {
 
 
 .that-col {
-    /* margin-left: -44% !important; */
-    display: flex;
+      display: flex;
 }
 
 .main-page {
@@ -313,24 +285,6 @@ font-family: fantasy;
  font-weight: bold;
 }
 
-/* footer style */
-
-.footrrr {
-  color: #3b3b3b;
-  margin-bottom: -100%;
-  margin-left: 3.6%;
-}
-
-.footSide {
-  border-top-style: double;
-  margin-bottom: -1%;
-  margin-top: 2.5%;
-  border-color: rgb(32, 50, 83);
-}
-
-.entireFooter {
-  margin-top: -3%;
-}
 
 .main-page {
   overflow: hidden;
@@ -342,11 +296,10 @@ font-family: fantasy;
   margin-bottom: -100%;
 }
 
-.main-page {
-  /* margin-bottom: -61%; */
+.entireFooter {
+  margin-top: -3.6%;
 }
 
-/* footer style */
 @media only screen and (max-width: 553px) {
   .abt-image {
     margin-top: 5%;
