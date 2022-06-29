@@ -51,7 +51,10 @@
         <div class="form-group">
         <textarea class="form-control bgg mnnm" rows="5" placeholder="Message" name="Message"> </textarea> 
         </div>
+        <a href="http://www.google.com">
    <button type="submit" class="mnn btn btn-rabbit submit bgg bggn">Send Message</button>
+
+        </a>
     </form>
     </div>
   </div>

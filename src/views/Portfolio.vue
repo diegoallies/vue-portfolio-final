@@ -21,7 +21,7 @@
   <div class="row">
     <div class="col">
      
-      <h1 class="abttt">Portfolios</h1>
+      <h1 class="abttt">Projects</h1>
 
     </div>
   </div>
@@ -29,7 +29,7 @@
   <div class="row">
     <div class="col">
      
-      <h1 class="subt txttt ccvv">My Projects.</h1>
+      <h1 class="subt txttt ccvv"> .</h1>
 
     </div>
   </div>
