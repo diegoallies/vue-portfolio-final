@@ -26,7 +26,7 @@
     <div class="row">
 
     <div class="col">
-     <router-link :to="{ name: 'Contact' }" class="btn btn-rabbit mnn">Contact</router-link> 
+      <router-link :to="{ name: 'Portfolio' }" class="btn btn-rabbit mnn">Portfolio</router-link>
     </div>
 
   </div>
@@ -34,7 +34,7 @@
   <div class="row">
 
     <div class="col lc">
-      <router-link :to="{ name: 'Portfolio' }" class="btn btn-rabbit mnn">Portfolio</router-link>
+     <router-link :to="{ name: 'Contact' }" class="btn btn-rabbit mnn">Contact</router-link> 
     </div>
     
   </div>

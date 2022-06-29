@@ -39,21 +39,18 @@
 
   <div class="row">
     <div class="col">
-     <form class="form_edit" @submit.prevent="handleSubmit"> 
+     <form class="form_edit" action="https://formspree.io/f/xnqwyraz" method="POST"> 
         <div class="form-group">
-            <input type="name" class="form-control bgg mnnm" id="exampleInputName" placeholder="Name" name="Name" v-model="name">
+            <input type="name" class="form-control bgg mnnm" id="exampleInputName" placeholder="Name" name="Name">
         </div>
 
         <div class="form-group">
-        <input type="email" class="form-control bgg mnnm" id="exampleInputEmail1" placeholder="Email" name="Email" v-model="email">
+        <input type="email" class="form-control bgg mnnm" id="exampleInputEmail1" placeholder="Email" name="Email">
         </div>
 
         <div class="form-group">
-        <textarea class="form-control bgg mnnm" rows="5" placeholder="Message" name="Message" v-model="message"></textarea>
+        <textarea class="form-control bgg mnnm" rows="5" placeholder="Message" name="Message"> </textarea> 
         </div>
-        {{name}}
-        {{email}}
-        {{message}}
    <button type="submit" class="mnn btn btn-rabbit submit bgg bggn">Send Message</button>
     </form>
     </div>
@@ -90,7 +87,7 @@ export default {
 
   methods: {
     handleSubmit () {
-      fetch('http://localhost:3000/contact', {
+      fetch('http://localhost:8080/contact', {
         method: 'POST',
         mode: 'no-cors',
         body: JSON.stringify({

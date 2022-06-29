@@ -6,10 +6,6 @@
 
   </transition>
 
-
-
-
-
 </template>
 
 <script>

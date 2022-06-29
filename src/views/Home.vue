@@ -1,6 +1,5 @@
 <template>
   <div class="home" id="index">
-
     <div class="container">
   <div class="row">
     <div class="col-sm w3-animate-right"> 
@@ -8,8 +7,6 @@
 <div class="imageContainer">
    <img src="https://i.postimg.cc/1zQVXvL3/exa.jpg" alt="Diego Allies" class="home-image">
 </div>
-     
-
     </div>
     <div class="col-sm w3-animate-left">
        <!-- Right Column -->
@@ -18,12 +15,7 @@
   </div>
 </div>
   </div>
-
-
   <Footer />
-
-
-
 </template>
 
 <script>
@@ -31,13 +23,13 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 import Footer from '@/components/Footer.vue'
 
-
 export default {
   name: 'Home',
   components: {
     HelloWorld,
     Footer
   }
+  
 }
 </script>
 
@@ -53,10 +45,7 @@ export default {
   height: 100%;
 }
 
-
-
 /* media querries */
-
 
 @media only screen and (max-width: 553px) {
   .home-image {
