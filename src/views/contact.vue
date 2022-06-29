@@ -85,25 +85,6 @@ export default {
     }
   },
 
-  methods: {
-    handleSubmit () {
-      fetch('http://localhost:8080/contact', {
-        method: 'POST',
-        mode: 'no-cors',
-        body: JSON.stringify({
-          name: this.name,
-          email: this.email,
-          message: this.message,
-        }),
-        // headers: {
-        //   'Content-type': 'application/json; charset=UTF-8',
-        // },
-      })
-      .then((response) => response.json())
-      .then((json) => console.log(json))
-      .catch(e => console.log(e));
-    }
-  },
 
   components: {
     Footer
