@@ -7,12 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "bootstrap": "^5.2.0-beta1",
-    "core-js": "^3.6.5",
-    "firebase": "^9.6.10",
-    "mdb-ui-kit": "^3.10.2",
-    "vue": "^3.0.0",
-    "vue-router": "^4.0.0-0"
+    "bootstrap": "latest",
+    "core-js": "latest",
+    "firebase": "latest",
+    "mdb-ui-kit": "latest",
+    "node": "latest",
+    "vue": "latest",
+    "vue-router": "latest"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
