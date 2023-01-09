@@ -30,7 +30,7 @@
   <div class="row">
     <div class="col">
      
-      <h1 class="subt txttt">Hi, I am Diego Allies. A freelance web designer, front & back end developer.</h1>
+      <h1 class="subt txttt">Hi, I am Diego Allies. Fullstack Web developer.</h1>
 
     </div>
   </div>
