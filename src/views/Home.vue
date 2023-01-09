@@ -5,7 +5,7 @@
     <div class="col-sm w3-animate-right"> 
       <!-- Left Column -->
 <div class="imageContainer">
-   <img src="https://i.postimg.cc/1zQVXvL3/exa.jpg" alt="Diego Allies" class="home-image">
+   <img src="https://i.postimg.cc/7LjTYN9F/EC8-D05-DE-39-A9-4-CBA-8-DFB-5019-CB89066-C.jpg" alt="Diego Allies" class="home-image">
 </div>
     </div>
     <div class="col-sm w3-animate-left">
