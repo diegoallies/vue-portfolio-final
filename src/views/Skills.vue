@@ -6,7 +6,7 @@
 
     <div class="col-sm w3-animate-left">
     <router-link to="/" class="btn btn-rabbit back-btn mnn bnnn mbv"><i class="fas fa-angle-left bbn">  </i>   <span class="back2home">Back to Home</span> </router-link>
-      <img src="https://i.postimg.cc/gcVmwn8T/wrk.jpg" alt="me" class="abt-image">
+      <img src="https://i.postimg.cc/c4Y3sc1q/D85-ADA04-101-D-40-F4-9521-EFE0957-CFCAE.jpg" alt="me" class="abt-image">
     </div>
 
     <div class="col-sm w3-animate-right">
